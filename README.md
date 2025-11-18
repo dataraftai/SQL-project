@@ -2,7 +2,7 @@
 
 Here are two projects covid-19 and Nashvill housing data <br>
 
-1. this is covid-19 data from WHO and vaccination data from our one world
+1.this is covid-19 data from WHO and vaccination data from our one world
 case study death and new cases vaccination per million people
 <br>
 
