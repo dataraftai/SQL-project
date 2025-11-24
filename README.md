@@ -8,3 +8,5 @@ case study death and new cases vaccination per million people
 
 2.and nashvill housing data cleaning using sql i used here sql for retrive data
 from database used sql command we can see here data_cleaning_protfolio.sql
+
+
