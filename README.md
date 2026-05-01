@@ -8,7 +8,7 @@ This repository showcases SQL skills through two real-world projects focused on 
 
 # SQL Portfolio – Data Analysis & Data Cleaning
 
-![Portfolio Overview](images/one_language_two_disciplines.png)
+![Portfolio Overview](images/structure.png)
 
 This repository showcases full-spectrum data handling capabilities using SQL...
 The focus is on using SQL to extract insights, clean raw data, and prepare datasets for analysis.
@@ -40,7 +40,7 @@ The focus is on using SQL to extract insights, clean raw data, and prepare datas
 
 ## 🎯 Objective
 
-![Epidemiological Data Flow](images/navigating_global_data.png)
+![Epidemiological Data Flow](images/covide-data.png)
 
 To analyze global COVID-19 trends including cases, deaths, and vaccination progress using SQL queries.
 
