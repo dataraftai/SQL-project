@@ -6,11 +6,11 @@ This repository showcases SQL skills through two real-world projects focused on 
 
 ## 📌 Overview
 
-This portfolio includes:
+# SQL Portfolio – Data Analysis & Data Cleaning
 
-* COVID-19 data analysis (cases, deaths, vaccination trends)
-* Nashville housing data cleaning and transformation
+![Portfolio Overview](images/one_language_two_disciplines.png)
 
+This repository showcases full-spectrum data handling capabilities using SQL...
 The focus is on using SQL to extract insights, clean raw data, and prepare datasets for analysis.
 
 ---
@@ -40,6 +40,8 @@ The focus is on using SQL to extract insights, clean raw data, and prepare datas
 
 ## 🎯 Objective
 
+![Epidemiological Data Flow](images/navigating_global_data.png)
+
 To analyze global COVID-19 trends including cases, deaths, and vaccination progress using SQL queries.
 
 ---
@@ -55,10 +57,16 @@ The analysis focuses on:
 * Building rolling vaccination totals using window functions
 
 ---
-
 ## 📌 Architecture Diagram
 
-![COVID Analysis Architecture](images/covid-architecture.png)
+```
++---------------------+        +-------------------+        +-------------------+
+|   Raw COVID Data    | -----> |     SQL Queries   | -----> |   Analytical Insights|
+| (WHO, Our World)     |        | Aggregation, JOINs |        | Death rates,      |
+|                     |        | Window functions   |        | vaccination stats |
++---------------------+        +-------------------+        +-------------------+
+
+```
 
 **Explanation:**
 This diagram represents the flow of data from raw COVID-19 datasets into structured SQL queries that generate key metrics such as infection trends, death rates, and vaccination progress.
@@ -106,7 +114,15 @@ The data cleaning process includes:
 
 ## 📌 Data Cleaning Workflow Diagram
 
-![Housing Cleaning Workflow](images/housing-cleaning.png)
+```
++--------------------------+        +--------------------------+        +----------------------+
+|  Raw Housing Data        | -----> |  Data Cleaning Steps     | -----> |   Cleaned Housing    |
+| (Missing addresses,      |        | (Handle missing data,    |        |   Data (No duplicates|
+| unstructured addresses)  |        | split addresses,         |        |  structured columns) |
+|                          |        | standardize fields)      |        |                      |
++--------------------------+        +--------------------------+        +----------------------+
+
+```
 
 **Explanation:**
 This diagram shows the transformation pipeline applied to raw housing data, converting unstructured records into a clean relational format suitable for analysis.
